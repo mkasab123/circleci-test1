@@ -29,7 +29,7 @@ workflows:
           app-name: circleci-demo-job
           cmd: /usr/local/bin/npm test
           component-name: circleci-demo-javascript-express
-          portal-url: 'https://yourdeepfactor.yourcompany.com'
+          portal-url: 'https://10.20.40.134/'
           pre-run:
             - checkout
             - run:
